@@ -42,13 +42,13 @@ export default function Page() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between min-h-screen bg-neutral-100 dark:bg-neutral-900 gap-4 p-8">
+    <div className="flex flex-col items-center justify-between min-h-screen bg-neutral-100 dark:bg-neutral-900 gap-2 p-8">
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
           DHL 4x6&quot; label PDF crop
         </h1>
         <p className="text-neutral-600 dark:text-neutral-400">
-          Crop a DHL transport label into a 4x6" PDF for printing
+          Crop a DHL transport label into a 4x6&quot; PDF for printing
         </p>
       </div>
       {!croppedPdf && (
@@ -64,6 +64,11 @@ export default function Page() {
             Upload PDF
           </button>
         </div>
+      )}
+      {file && (
+        <p className="text-center text-neutral-700 dark:text-neutral-300">
+          Selected File: {file.name}
+        </p>
       )}
       {croppedPdfUrl && (
         <div className="mt-4 w-80">
