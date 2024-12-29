@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dab59234-d588-4fb2-88b1-af54386fdf5a/deploy-status)](https://app.netlify.com/sites/dhl-4x6-label-cropper/deploys)
+
 # DHL 4x6" Label Cropper
 
 The DHL 4x6" Label Cropper is an online tool designed to crop DHL transport (waybill) labels to a 4x6" size. When shipping with DHL, you often receive transport labels in A4 horizontal format. The provided PDF has the actual label on the left side of the page and a large blank area on the right. With this tool, you will be able to convert the original label into a properly sized label for printing on standard 4x6" label printers.
