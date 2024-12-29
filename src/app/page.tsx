@@ -45,7 +45,7 @@ export default function Page() {
     <div className="flex flex-col items-center justify-between min-h-screen bg-neutral-100 dark:bg-neutral-900 gap-2 p-8">
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-          DHL 4x6&quot; label PDF crop
+          DHL 4x6&quot; Label Cropper
         </h1>
         <p className="text-neutral-600 dark:text-neutral-400">
           Crop a DHL transport label into a 4x6&quot; PDF for printing
