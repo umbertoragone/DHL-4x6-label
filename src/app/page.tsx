@@ -25,8 +25,12 @@ export default function Page() {
 
   const onDrop = async (acceptedFiles: File[]) => {
     const file = acceptedFiles[0];
-    setFile(file);
-    await cropPdf(file);
+    if (file.type === "application/pdf") {
+      setFile(file);
+      await cropPdf(file);
+    } else {
+      alert("Please upload a PDF file.");
+    }
   };
 
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
