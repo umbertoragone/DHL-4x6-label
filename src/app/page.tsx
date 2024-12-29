@@ -36,7 +36,7 @@ export default function Page() {
       const blob = new Blob([croppedPdf], { type: "application/pdf" });
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
-      link.download = "cropped.pdf";
+      link.download = `${file?.name.replace(".pdf", "")}-cropped.pdf`;
       link.click();
     }
   };
