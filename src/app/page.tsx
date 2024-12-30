@@ -64,7 +64,7 @@ export default function Page() {
           <CloudUpload className="text-5xl text-neutral-500 w-10 h-10" />
           <p>Drag & Drop a PDF file here</p>
           <span>or</span>
-          <button className="rounded-lg font-semibold bg-blue-500 text-sm text-white dark:bg-blue-600 dark:text-neutral-200 hover:bg-blue-600 dark:hover:bg-blue-700 shadow-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 px-4 py-2">
+          <button className="rounded-lg bg-blue-500 font-semibold text-sm text-white dark:bg-blue-600 dark:text-neutral-200 hover:bg-blue-600 dark:hover:bg-blue-700 shadow-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 px-4 py-2">
             Upload PDF
           </button>
         </div>
